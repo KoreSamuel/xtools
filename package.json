@@ -1,6 +1,6 @@
 {
   "name": "@koresamuel/xtools",
-  "version": "1.0.0",
+  "version": "1.0.1-0",
   "description": "tools for daily usage",
   "main": "dist/index.js",
   "bin": {
