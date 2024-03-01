@@ -1,10 +1,10 @@
 {
-  "name": "xtools",
+  "name": "@koresamuel/xtools",
   "version": "1.0.0",
   "description": "tools for daily usage",
   "main": "dist/index.js",
   "bin": {
-    "xtools": "./dist/index.js"
+    "xtools": "dist/index.js"
   },
   "keywords": [
     "cli",
@@ -16,7 +16,10 @@
   },
   "author": "koresamuel",
   "license": "MIT",
-  "repository": "https://github.com/KoreSamuel/xtools",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoreSamuel/xtools.git"
+  },
   "homepage": "https://github.com/KoreSamuel/xtools#readme",
   "dependencies": {
     "@types/qrcode-terminal": "^0.12.2",
@@ -28,5 +31,8 @@
     "@types/node": "^20.11.24",
     "@types/qrcode": "^1.5.5",
     "typescript": "^5.3.3"
+  },
+  "bugs": {
+    "url": "https://github.com/KoreSamuel/xtools/issues"
   }
 }

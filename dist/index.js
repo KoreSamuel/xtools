@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
@@ -13,6 +14,7 @@ const { Command } = require('commander');
 const version = require('../package.json').version;
 const program = new Command();
 const QRCode = require('qrcode-terminal');
+console.log(figlet.textSync("Hello Xtools"));
 program
     .version(version)
     .description("A CLI tools for daily usage")
