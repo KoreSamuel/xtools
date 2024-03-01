@@ -18,7 +18,7 @@ const options = program.opts();
 
 const generateQR = async (text: string) => {
   try {
-    await QRCode.generate(text);
+    await QRCode.generate(text, { small: true });
   } catch (err) {
     console.error(err)
   }

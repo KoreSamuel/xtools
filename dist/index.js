@@ -23,7 +23,7 @@ program
 const options = program.opts();
 const generateQR = (text) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        yield QRCode.generate(text);
+        yield QRCode.generate(text, { small: true }, (code) => console.log(code));
     }
     catch (err) {
         console.error(err);
