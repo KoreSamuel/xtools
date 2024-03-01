@@ -1,0 +1,32 @@
+{
+  "name": "xtools",
+  "version": "1.0.0",
+  "description": "tools for daily usage",
+  "main": "dist/index.js",
+  "bin": {
+    "xtools": "./dist/index.js"
+  },
+  "keywords": [
+    "cli",
+    "tools"
+  ],
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "koresamuel",
+  "license": "MIT",
+  "repository": "https://github.com/KoreSamuel/xtools",
+  "homepage": "https://github.com/KoreSamuel/xtools#readme",
+  "dependencies": {
+    "@types/qrcode-terminal": "^0.12.2",
+    "commander": "^12.0.0",
+    "figlet": "^1.7.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/qrcode": "^1.5.5",
+    "typescript": "^5.3.3"
+  }
+}
